@@ -6,6 +6,7 @@ import { NotificationService, Notification, NotificationType } from '../../../Co
 
 @Component({
   selector: 'app-alert',
+  standalone: false,
   template: `
     <div *ngIf="notification" class="alert" [ngClass]="alertTypeClass">
       <span>{{ notification.message }}</span>

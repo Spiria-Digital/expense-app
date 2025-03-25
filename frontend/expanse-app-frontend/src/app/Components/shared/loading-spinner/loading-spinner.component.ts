@@ -2,6 +2,7 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-loading-spinner',
+  standalone: false,
   template: `
     <div class="spinner-container" *ngIf="show">
       <div class="spinner"></div>

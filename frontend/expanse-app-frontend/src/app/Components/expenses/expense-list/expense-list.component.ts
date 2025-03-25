@@ -8,6 +8,7 @@ import { NotificationService } from '../../../Core/services/notif.service';
 
 @Component({
   selector: 'app-expense-list',
+  standalone: false,
   template: `
     <div class="expense-list-container">
       <div class="header">

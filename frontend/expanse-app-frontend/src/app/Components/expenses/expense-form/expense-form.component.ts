@@ -9,6 +9,7 @@ import { Expense, CreateExpenseRequest } from '../../../Models/expense.model';
 
 @Component({
   selector: 'app-expense-form',
+  standalone: false,
   template: `
     <div class="expense-form-container">
       <div class="header">

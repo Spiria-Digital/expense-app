@@ -1,3 +1,4 @@
+// src/app/app.module.ts
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
@@ -10,7 +11,7 @@ import { AppComponent } from './app.component';
 import { AuthInterceptor } from './Core/interceptors/auth.interceptor';
 import { ErrorInterceptor } from './Core/interceptors/error.interceptor';
 
-// Components will be imported here
+// Components - manually create these with @Component decorator instead of standalone
 import { LoginComponent } from './Components/auth/login/login.component';
 import { RegisterComponent } from './Components/auth/register/register.component';
 import { ExpenseListComponent } from './Components/expenses/expense-list/expense-list.component';

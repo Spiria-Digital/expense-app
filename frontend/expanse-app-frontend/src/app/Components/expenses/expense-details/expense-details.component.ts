@@ -8,6 +8,7 @@ import { Category } from '../../../Models/category.model';
 
 @Component({
   selector: 'app-expense-details',
+  standalone: false,
   template: `
     <div class="expense-details-container">
       <div class="header">

@@ -7,6 +7,7 @@ import { Category } from '../../../Models/category.model';
 
 @Component({
   selector: 'app-create-category',
+  standalone: false,
   template: `
     <div class="category-form-container">
       <div class="header">

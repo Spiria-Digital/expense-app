@@ -7,6 +7,7 @@ import { NotificationService } from '../../../Core/services/notif.service';
 
 @Component({
   selector: 'app-register',
+  standalone: false,
   template: `
     <div class="auth-container">
       <div class="auth-card">
